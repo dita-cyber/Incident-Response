@@ -12,7 +12,7 @@ My knowledge base while I learn incident response concepts as a recent SOC Analy
 **Chain of Custody:** Document who collected what, when, and how to maintain evidence integrity.<br/>
 
 **The Big 4**
-1. How did they get in? Identify the initial entry vector and how credentials/systems were first compromised.
+**1. How did they get in?** Identify the initial entry vector and how credentials/systems were first compromised.
 (Initial Access – ATT&CK TA0001)
 
 Common techniques:
@@ -22,7 +22,7 @@ Common techniques:
 - Supply Chain Compromise (T1195)
 - Valid Accounts (T1078)
 
-2. What did they take? Confirm what sensitive data, credentials, or IP was accessed or stolen.
+**2. What did they take?** Confirm what sensitive data, credentials, or IP was accessed or stolen.
 (Collection – TA0009, Exfiltration – TA0010, Impact – TA0040)
 
 Common techniques:
@@ -33,7 +33,7 @@ Common techniques:
 - Exfiltration Over C2 Channel (T1041)
 - Data Encrypted for Impact (T1486 – ransomware)
 
-3. Where did they go? Identify lateral movement paths, persistence mechanisms, and privilege escalation.
+**3. Where did they go?** Identify lateral movement paths, persistence mechanisms, and privilege escalation.
 (Lateral Movement – TA0008, Persistence – TA0003, Privilege Escalation – TA0004)
 
 Common techniques:
@@ -44,7 +44,7 @@ Common techniques:
 - Scheduled Task/Job (T1053)
 - Boot or Logon Autostart Execution (T1547)
 
-5. Do we still have them? Determine if attackers still maintain a foothold (backdoors, C2, persistence) and validate full eradication.
+**4. Do we still have them?** Determine if attackers still maintain a foothold (backdoors, C2, persistence) and validate full eradication.
 (Command and Control – TA0011, Defense Evasion – TA0005, Persistence – TA0003)
 
 Common techniques:
