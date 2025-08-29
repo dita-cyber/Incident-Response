@@ -6,10 +6,10 @@ My knowledge base while I learn incident response concepts as a recent SOC Analy
 
 **Evidence Collection & Analysis**
 
-Host-based evidence (HBI): Binary/file artifacts, registry keys, process lists, scheduled tasks, memory dumps.<br/>
-Network-based evidence (NBI): Firewall/proxy logs, DNS logs, NetFlow/PCAPs, IDS/IPS alerts.<br/>
-Indicators of Compromise (IoCs): Hashes, domains, IPs, filenames, command-line arguments, persistence mechanisms.<br/>
-Chain of Custody: Document who collected what, when, and how to maintain evidence integrity.<br/>
+**Host-based evidence (HBI):** Binary/file artifacts, registry keys, process lists, scheduled tasks, memory dumps.<br/>
+**Network-based evidence (NBI):** Firewall/proxy logs, DNS logs, NetFlow/PCAPs, IDS/IPS alerts.<br/>
+**Indicators of Compromise (IoCs):** Hashes, domains, IPs, filenames, command-line arguments, persistence mechanisms.<br/>
+** Chain of Custody:** Document who collected what, when, and how to maintain evidence integrity.<br/>
 
 **The Big 4**
 1. How did they get in? Identify the initial entry vector and how credentials/systems were first compromised.
