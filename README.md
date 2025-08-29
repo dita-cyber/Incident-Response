@@ -11,9 +11,9 @@ My knowledge base while I learn incident response concepts as a recent SOC Analy
 **Indicators of Compromise (IoCs):** Hashes, domains, IPs, filenames, command-line arguments, persistence mechanisms.<br/>
 **Chain of Custody:** Document who collected what, when, and how to maintain evidence integrity.<br/>
 
-**The Big 4**
-**1. How did they get in?** Identify the initial entry vector and how credentials/systems were first compromised.
-(Initial Access – ATT&CK TA0001)
+**The Big 4**<br/>
+**1. How did they get in?** Identify the initial entry vector and how credentials/systems were first compromised.<br/>
+(Initial Access – ATT&CK TA0001)<br/>
 
 Common techniques:
 - Phishing (T1566)
@@ -22,8 +22,8 @@ Common techniques:
 - Supply Chain Compromise (T1195)
 - Valid Accounts (T1078)
 
-**2. What did they take?** Confirm what sensitive data, credentials, or IP was accessed or stolen.
-(Collection – TA0009, Exfiltration – TA0010, Impact – TA0040)
+**2. What did they take?** Confirm what sensitive data, credentials, or IP was accessed or stolen.<br/>
+(Collection – TA0009, Exfiltration – TA0010, Impact – TA0040)<br/>
 
 Common techniques:
 - Data Staged (T1074)
@@ -33,8 +33,8 @@ Common techniques:
 - Exfiltration Over C2 Channel (T1041)
 - Data Encrypted for Impact (T1486 – ransomware)
 
-**3. Where did they go?** Identify lateral movement paths, persistence mechanisms, and privilege escalation.
-(Lateral Movement – TA0008, Persistence – TA0003, Privilege Escalation – TA0004)
+**3. Where did they go?** Identify lateral movement paths, persistence mechanisms, and privilege escalation.<br/>
+(Lateral Movement – TA0008, Persistence – TA0003, Privilege Escalation – TA0004)<br/>
 
 Common techniques:
 - Remote Services: SMB/Windows Admin Shares (T1021.002)
@@ -44,8 +44,8 @@ Common techniques:
 - Scheduled Task/Job (T1053)
 - Boot or Logon Autostart Execution (T1547)
 
-**4. Do we still have them?** Determine if attackers still maintain a foothold (backdoors, C2, persistence) and validate full eradication.
-(Command and Control – TA0011, Defense Evasion – TA0005, Persistence – TA0003)
+**4. Do we still have them?** Determine if attackers still maintain a foothold (backdoors, C2, persistence) and validate full eradication.<br/>
+(Command and Control – TA0011, Defense Evasion – TA0005, Persistence – TA0003)<br/>
 
 Common techniques:
 - C2 over HTTPS (T1071.001)
