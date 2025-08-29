@@ -2,7 +2,7 @@
 
 My knowledge base while I learn incident response concepts as a recent SOC Analyst II 
 
-![image alt](https://github.com/dita-cyber/Incident-Response/blob/762d83a46a8cb94050235645ee07052842d38361/CTF.png)
+![image alt](https://github.com/dita-cyber/Incident-Response/blob/fadce818d2202695fd9b96f4b82803c3a68a597b/IR.png)
 
 **Evidence Collection & Analysis**
 
